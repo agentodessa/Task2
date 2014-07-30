@@ -1,0 +1,25 @@
+﻿body {
+
+    background-color: #f4f7f9;
+}
+
+
+.big_logo {
+    
+	width: 998px;
+	height: 283px;
+    margin: 0 auto;
+    background-image: url(i/uwc.png);
+}
+.link_section a {
+    font-size: 19px;
+    height: 57px;
+    display: inline-table;
+    text-decoration: none;
+    text-align: center;
+    color: #7b868e;
+}
+.link_section span {
+    display: table-cell;
+    vertical-align: middle;
+}
