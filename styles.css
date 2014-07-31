@@ -1,6 +1,7 @@
 ﻿body {
 
     background-color: #f4f7f9;
+    cursor: default;
 }
 
 
@@ -10,16 +11,128 @@
 	height: 283px;
     margin: 0 auto;
     background-image: url(i/uwc.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.enter {
+    font-size: 13px;
+    width: 194px;
+}
+.enter a {
+
+    display: inline-table;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px dashed #7b868e;
+    color: #7b868e;
+
+}
+.enter span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link_section {
+        width: 684px;/*recalculate*/
 }
 .link_section a {
     font-size: 19px;
+    width: 100px;
     height: 57px;
+
     display: inline-table;
     text-decoration: none;
     text-align: center;
     color: #7b868e;
 }
+
+.link_section a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.link_section a:active {
+    color: #000000;
+    border-bottom: 3px solid #0000ff;
+}
 .link_section span {
     display: table-cell;
     vertical-align: middle;
+}
+
+.wrap_links {
+    width: 998px;
+    margin: 0 auto;
+}
+
+.wrap_links div {
+        display: inline-block;
+    }
+
+
+
+/*News
+    --------------------------*/
+
+
+.news_wrapper {
+    width: 960px;
+    color: #7b868e;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.head_link {
+
+    display: block;
+    font-size: 28px;
+    color: #5086e0;
+}
+.left_side {
+    width: 700px;
+    background-color: white;
+}
+.wrap_left {
+    width: 636px; /*700-(32+32)*/
+    margin: 0 auto; 
+}
+
+.underlink {
+    font-size: 11px;
+}
+.underlink a{
+    color: #7b868e;
+}
+
+.wrap_left {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top_news {
+    width: 240px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
