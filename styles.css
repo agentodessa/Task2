@@ -120,10 +120,15 @@
 }
 
 .second_p {
+
     font-size: 13px;
     margin-bottom: 47px;
     line-height: 1.5;
     font-style: italic;
+}
+
+.second_p span {
+
 }
 
 .third_p {
@@ -277,7 +282,9 @@ td {
 }
 
 .splitter {
-    
+    height: 3px;
+    border: 1px solid #dfe4e8;
+    margin-bottom: 25px;
 }
 
 .questions {
@@ -359,13 +366,31 @@ td {
 
 }
 .button_rigth {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
 
 }
 
 .button_left {
-
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    float: left;
 }
 
+
+.photo_view_img {
+     margin-top: 10px;
+ }
 
 .new_cars_link {
     margin-bottom: 34px;
