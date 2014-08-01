@@ -64,6 +64,7 @@
 
 .wrap_links {
     width: 998px;
+    height: 60px;
     margin: 0 auto;
 }
 
@@ -75,11 +76,12 @@
 
 /*News
     --------------------------*/
-
-
+.news {
+    margin-top: 70px;
+}
 .news_wrapper {
     width: 960px;
-    color: #7b868e;
+    color: #4f4f4f;
     margin: 0 auto;
     position: relative;
 
@@ -87,10 +89,10 @@
 
 
 .head_link {
-
     display: block;
     font-size: 28px;
     color: #5086e0;
+    margin-bottom: 13px;
 }
 .left_side {
     width: 700px;
@@ -98,18 +100,82 @@
 }
 .wrap_left {
     width: 636px; /*700-(32+32)*/
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding: 34px;
+
 }
 
 .underlink {
     font-size: 11px;
+    margin-bottom: 47px;
+    color: #7b868e;
 }
 .underlink a{
     color: #7b868e;
 }
+.first_p {
+    font-size: 13px;
+    margin-bottom: 47px;
+    line-height: 1.5;
+}
 
-.wrap_left {
+.second_p {
+    font-size: 13px;
+    margin-bottom: 47px;
+    line-height: 1.5;
+    font-style: italic;
+}
 
+.third_p {
+    font-size: 13px;
+    margin-bottom: 57px;
+    line-height: 1.5;
+}
+
+
+
+
+
+/*table*/
+.table_wrap {
+    position: relative;
+        margin-bottom: 57px;
+}
+.table {
+    font-size: 13px;
+    width: 376px;
+    border-top: 2px solid #000000;
+    
+}
+
+tr {
+    border-bottom: 1px solid #e8edf0;
+}
+
+td {
+    padding: 10px;
+}
+.last_row {
+    border: none;
+}
+
+
+
+
+
+.list {
+    width: 200px;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000;
+}
+
+.list li {
+    margin-bottom: 12px;
 }
 
 
@@ -117,22 +183,211 @@
 
 
 
+.fourth_p {
+    font-size: 13px;
+    margin-bottom: 57px;
+    line-height: 1.5;
+}
+.fifth_p {
+    font-size: 13px;
+    margin-bottom: 57px;
+    line-height: 1.5;
+}
+
+
+.gallery {
+    height: 521px;
+    border: 1px solid #000000;
+}
+.gallery_big_img {
+    height: 463px;
+}
+.gallery_small_imgs {
+    height: 198px;
+    background-color: #f9f8e6;
+}
 
 
 
 
 
 
-
-
-
-
-
-
+/*Top news 
+    ---------------------*/
 
 .top_news {
     width: 240px;
     position: absolute;
     right: 0;
     top: 0;
+}
+.banner {
+    height: 400px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    background-image: url(i/ad.jpg);
+}
+.banner a {
+    display: block;
+    height: 400px;
+    width: 240px;
+
+}
+
+.top_news_read {
+    text-align: center;
+    height: 36px;
+    font-size: 15px;
+    margin-bottom: 34px;
+}
+.top_news_read a{
+    display:inline-block;
+    height: 36px;
+    width: 115px;
+    color: #5086e0;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px dashed #5086e0;
+}
+.top_news a:hover{
+    color: red;
+}
+.date_time {
+    color: #7b868e;
+    font-size: 10px;
+}
+.top_news_link {
+    margin-bottom: 25px;
+}
+
+.top_news_link a{
+    font-size: 13px;
+    color: #5086e0;
+}
+.wrap_news_links {
+    margin-bottom: 60px;
+}
+
+
+
+/*Links
+    ----------------------------*/
+.links {
+    
+}
+
+.splitter {
+    
+}
+
+.questions {
+    margin-bottom: 70px;
+}
+.questions h1 {
+    font-size: 19px;
+    line-height: 1;
+}
+
+.questions p {
+    font-size: 13px;
+}
+
+.label_section {
+
+}
+.label {
+    width: 240px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.submit_answer {
+
+    height: 70px;
+    background-color: #edf3f6;
+    text-align: center;
+}
+
+.submit_answer button {
+    display: table-cell;
+    width: 98px;
+    height: 36px;
+    background-color: #e6e9ec;
+    border: 1px solid #d4dadf;
+    border-radius: 5px;
+    margin: 17px auto;
+}
+
+
+
+
+
+
+
+
+
+
+.new_cars {
+    
+}
+
+.photo_view {
+    position: relative;
+    height: 222px;
+    margin-bottom: 10px;
+}
+.photo_view h1 {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    width: 150px;
+    line-height: 1;
+    color: #000000;
+    font-weight: 500
+}
+
+.wrap_battons {
+    position: relative;
+    height: 26px;
+    margin-bottom: 10px;
+}
+.nav_buttons {
+    width: 55px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.button_rigth {
+
+}
+
+.button_left {
+
+}
+
+
+.new_cars_link {
+    margin-bottom: 34px;
+}
+.new_cars_link a {
+    font-size: 15px;
+    color: #5086e0;
+}
+
+.bold_link {
+    font-size: 15px;
+    color: #5086e0;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.footer {
+    height: 200px;
+    border: 1px solid #000000;
 }
