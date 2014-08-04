@@ -338,8 +338,11 @@ td {
 }
 
 .label_section {
-    display: table-cell;
+    display: table;
 
+
+}
+.label_wrap {
 
 }
 .label {
@@ -348,11 +351,12 @@ td {
     height: 50px;
     border-top: 1px dashed #d4dadf;
     cursor: pointer;
-    display: block;
+    display: table-cell;
+    vertical-align: middle;
 
 }
 
-.label:hover input:hover{
+.input:hover{
     border: 1px solid #0b9bff;
 }
 .label:hover{
@@ -362,6 +366,9 @@ td {
     padding-left: 10px;
 }
 
+.label span {
+    padding-left: 10px;
+}
 
 
 
