@@ -1,0 +1,5 @@
+D:\Projects\Task2\Task2\bin\Task2.dll.config
+D:\Projects\Task2\Task2\bin\Task2.dll
+D:\Projects\Task2\Task2\bin\Task2.pdb
+D:\Projects\Task2\Task2\obj\Release\Task2.dll
+D:\Projects\Task2\Task2\obj\Release\Task2.pdb
