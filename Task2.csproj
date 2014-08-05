@@ -17,10 +17,14 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="img\ad.png" />
+    <Content Include="img\bg_text.png" />
+    <Content Include="img\bmw_logo.png" />
+    <Content Include="img\uwc_bg.png" />
     <Content Include="index.html" />
-    <Content Include="i\ad.jpg" />
-    <Content Include="i\bg_news.png" />
-    <Content Include="i\uwc.png" />
+    <Content Include="img\bg_news.png" />
+    <Content Include="img\counter.png" />
+    <Content Include="img\uwc.png" />
     <Content Include="normalize.css" />
     <Content Include="styles.css" />
     <Content Include="web.config" />

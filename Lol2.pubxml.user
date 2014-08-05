@@ -10,10 +10,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Task2.dll">
-      <publishTime>08/04/2014 14:58:15</publishTime>
+      <publishTime>08/05/2014 18:55:29</publishTime>
     </File>
     <File Include="i/ad.jpg">
-      <publishTime>08/01/2014 11:30:38</publishTime>
+      <publishTime>01/08/2014 11:30:38</publishTime>
     </File>
     <File Include="i/bg_news.png">
       <publishTime>07/31/2014 18:50:10</publishTime>
@@ -21,14 +21,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="i/uwc.png">
       <publishTime>07/30/2014 19:59:33</publishTime>
     </File>
+    <File Include="img/ad.png">
+      <publishTime>08/05/2014 16:10:44</publishTime>
+    </File>
+    <File Include="img/bg_news.png">
+      <publishTime>07/31/2014 18:50:10</publishTime>
+    </File>
+    <File Include="img/bg_text.png">
+      <publishTime>08/05/2014 15:55:43</publishTime>
+    </File>
+    <File Include="img/bmw_logo.png">
+      <publishTime>08/05/2014 18:21:48</publishTime>
+    </File>
+    <File Include="img/counter.png">
+      <publishTime>08/05/2014 14:03:23</publishTime>
+    </File>
+    <File Include="img/uwc.png">
+      <publishTime>08/05/2014 15:41:08</publishTime>
+    </File>
+    <File Include="img/uwc_bg.png">
+      <publishTime>08/05/2014 15:55:43</publishTime>
+    </File>
     <File Include="index.html">
-      <publishTime>08/04/2014 14:11:46</publishTime>
+      <publishTime>08/05/2014 18:53:33</publishTime>
     </File>
     <File Include="normalize.css">
       <publishTime>07/30/2014 16:30:01</publishTime>
     </File>
     <File Include="styles.css">
-      <publishTime>08/04/2014 14:50:14</publishTime>
+      <publishTime>08/05/2014 18:55:20</publishTime>
     </File>
     <File Include="web.config">
       <publishTime>08/04/2014 14:58:16</publishTime>
