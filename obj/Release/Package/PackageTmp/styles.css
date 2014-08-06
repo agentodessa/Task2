@@ -38,7 +38,7 @@
 	position: absolute;
 	width: 800px;
 	height: 285px;
-	background-image: url(img/uwc_bg.png);
+	background-image: url(images/uwc_bg.png);
 	background-repeat: no-repeat;
 	right: 0;
 	bottom: -60px;
@@ -261,20 +261,40 @@ td {
 	line-height: 1.5;
 }
 
+
+
+
+
+
+
+
+
+/*Gallery*/
  .gallery {
 	height: 521px;
-	border: 1px solid #000000;
 	padding-bottom: 20px;
 }
 
-.gallery_big_img {
+.largeimg {
 	height: 463px;
+	width: 638px;
 }
 
-.gallery_small_imgs {
+.thumbs {
 	height: 198px;
 	background-color: #f9f8e6;
 }
+.thumbs img {
+	width: 120px;
+	height: 86px;
+	padding: 1px;
+}
+
+
+
+
+
+
 
 
 
@@ -585,7 +605,6 @@ input[type=radio]:hover + label:before {
 		margin: 17px auto;
 		cursor: default;
 	}
-
 
 
 

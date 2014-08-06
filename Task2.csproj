@@ -17,15 +17,37 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="img\ad.png" />
-    <Content Include="img\bg_text.png" />
-    <Content Include="img\bmw_logo.png" />
-    <Content Include="img\uwc_bg.png" />
+    <Content Include="images\ad.png" />
+    <Content Include="images\bg_text.png" />
+    <Content Include="images\bmw_logo.png" />
+    <Content Include="images\img10_lg.jpg" />
+    <Content Include="images\img1_lg.jpg" />
+    <Content Include="images\img1_small.jpg" />
+    <Content Include="images\img3_lg.jpg" />
+    <Content Include="images\img4_lg.jpg" />
+    <Content Include="images\img5_lg.jpg" />
+    <Content Include="images\img6_lg.jpg" />
+    <Content Include="images\img7_lg.jpg" />
+    <Content Include="images\img8_lg.jpg" />
+    <Content Include="images\img9_lg.jpg" />
+    <Content Include="images\uwc_bg.png" />
+    <Content Include="images\img2_lg.jpg" />
     <Content Include="index.html" />
-    <Content Include="img\bg_news.png" />
-    <Content Include="img\counter.png" />
-    <Content Include="img\uwc.png" />
+    <Content Include="images\bg_news.png" />
+    <Content Include="images\counter.png" />
+    <Content Include="images\uwc.png" />
     <Content Include="normalize.css" />
+    <Content Include="Scripts\gallery.js" />
+    <Content Include="images\img2_small.jpg" />
+    <Content Include="images\img10_small.jpg" />
+    <Content Include="images\img3_small.jpg" />
+    <Content Include="images\img4_small.jpg" />
+    <Content Include="images\img5_small.jpg" />
+    <Content Include="images\img6_small.jpg" />
+    <Content Include="images\img7_small.jpg" />
+    <Content Include="images\img8_small.jpg" />
+    <Content Include="images\img9_small.jpg" />
+    <Content Include="Scripts\jquery-1.11.1.js" />
     <Content Include="styles.css" />
     <Content Include="web.config" />
   </ItemGroup>
