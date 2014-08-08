@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Task2.dll">
-      <publishTime>06/08/2014 13:38:49</publishTime>
+      <publishTime>08/08/2014 12:51:10</publishTime>
     </File>
     <File Include="i/ad.jpg">
       <publishTime>01/08/2014 11:30:38</publishTime>
@@ -42,8 +42,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/img10_small.jpg">
       <publishTime>06/08/2014 13:37:56</publishTime>
     </File>
+    <File Include="images/img1_lg.jpg">
+      <publishTime>06/08/2014 17:15:28</publishTime>
+    </File>
     <File Include="images/img1_lg.png">
       <publishTime>06/08/2014 12:00:38</publishTime>
+    </File>
+    <File Include="images/img1_small.jpg">
+      <publishTime>06/08/2014 17:15:28</publishTime>
     </File>
     <File Include="images/img1_small.png">
       <publishTime>06/08/2014 12:00:38</publishTime>
@@ -96,6 +102,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/img9_small.jpg">
       <publishTime>06/08/2014 13:37:56</publishTime>
     </File>
+    <File Include="images/thumbs_next.png">
+      <publishTime>07/08/2014 17:53:34</publishTime>
+    </File>
+    <File Include="images/thumbs_prev.png">
+      <publishTime>07/08/2014 18:01:17</publishTime>
+    </File>
     <File Include="images/uwc.png">
       <publishTime>05/08/2014 15:41:08</publishTime>
     </File>
@@ -124,19 +136,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/08/2014 15:55:43</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>06/08/2014 14:00:04</publishTime>
+      <publishTime>08/08/2014 12:44:27</publishTime>
     </File>
     <File Include="normalize.css">
       <publishTime>07/30/2014 16:30:01</publishTime>
     </File>
+    <File Include="Sample/gallery.js">
+      <publishTime>08/07/2014 15:00:27</publishTime>
+    </File>
+    <File Include="Sample/jquery.easing.1.3.js">
+      <publishTime>08/07/2014 15:00:27</publishTime>
+    </File>
+    <File Include="Sample/jquery.elastislide.js">
+      <publishTime>08/07/2014 15:00:28</publishTime>
+    </File>
+    <File Include="Sample/jquery.tmpl.min.js">
+      <publishTime>08/07/2014 15:00:28</publishTime>
+    </File>
     <File Include="Scripts/gallery.js">
-      <publishTime>08/06/2014 16:16:26</publishTime>
+      <publishTime>08/08/2014 13:12:53</publishTime>
     </File>
     <File Include="Scripts/jquery-1.11.1.js">
       <publishTime>06/08/2014 11:38:31</publishTime>
     </File>
     <File Include="styles.css">
-      <publishTime>08/06/2014 13:47:43</publishTime>
+      <publishTime>08/08/2014 12:50:31</publishTime>
     </File>
     <File Include="web.config">
       <publishTime>04/08/2014 14:58:16</publishTime>

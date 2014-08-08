@@ -30,6 +30,7 @@
     <Content Include="images\img7_lg.jpg" />
     <Content Include="images\img8_lg.jpg" />
     <Content Include="images\img9_lg.jpg" />
+    <Content Include="images\thumbs_next.png" />
     <Content Include="images\uwc_bg.png" />
     <Content Include="images\img2_lg.jpg" />
     <Content Include="index.html" />
@@ -49,6 +50,7 @@
     <Content Include="images\img9_small.jpg" />
     <Content Include="Scripts\jquery-1.11.1.js" />
     <Content Include="styles.css" />
+    <Content Include="images\thumbs_prev.png" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
