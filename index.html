@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="normalize.css" type="text/css" />
         <link rel="stylesheet" href="styles.css" type="text/css" />
 	    <script type="text/javascript" src="Scripts/jquery-1.11.1.js" ></script>
-		<script type="text/javascript" src="Scripts/gallery.js"></script>
+	    <script type="text/javascript" src="Scripts/gallery.js"></script>
     </head>
     <body>
         
@@ -26,16 +26,18 @@
 			        <div class="enter">
 				        <ul class="enter_links">
 					        <li><a href="#"><span>Вход</span></a></li>
-					        <li> или </li>
+					        <li> <span class="split_links">&nbsp;или&nbsp;</span></li>
 							<li><a href="#"><span>Регистрация</span></a></li>
 				        </ul>
 			        </div>
 			        <div class="link_section">
-				        <a href="#"><span>Статья</span></a>
-				        <a href="#"><span>Блоги</span></a>
-				        <a href="#"><span>Авторы</span></a>
-				        <a href="#"><span>Галерея</span></a>
-				        <a href="#"><span>Компании</span></a>
+				        <ul class="link_section_list">
+					        <li><a href="#"><span>Статья</span></a></li>
+					        <li><a href="#"><span>Блоги</span></a></li>
+					        <li><a href="#"><span>Авторы</span></a></li>
+					        <li><a href="#"><span>Галерея</span></a></li>
+							<li><a href="#"><span>Компании</span></a></li>
+				        </ul>    
 			        </div>
 		        </div>
 	        </nav>
@@ -137,7 +139,7 @@
 
                             </div>
 	                        <div class="gallery">
-		                        <h2>Фотографии  <label><span class="picture_counter">1</span>/10</label></h2>
+		                        <h2>Фотографии  <label class="gallery_counter"><span class="picture_counter">1</span>/10</label></h2>
 		                        <img class="opaque" src="images/img1_lg.jpg" title="1" alt=""/>
 		                        <img  src="images/img2_lg.jpg" title="2" alt="" />
 		                        <img  src="images/img3_lg.jpg" title="3" alt="" />
@@ -157,9 +159,12 @@
 								<div class="wrap_carousel">
 									<div class="thumb_prev"> <span class="left_arrow"></span></div>
 									<ul class="carousel">
-										<li><img src="images/img1_small.jpg" title="1" alt=""></li>
-										<li><img src="images/img2_small.jpg" title="2" alt=""></li>
-										<li><img src="images/img3_small.jpg" title="3" alt=""></li>
+										<!--[if IE 8]><script type="text/javascript" src="Scripts/box-shadow.jquery.js"></script> <![endif]-->
+		
+
+										<li><div class="hovered_image"><img src="images/img1_small.jpg" title="1" alt=""></div></li>
+										<li><div class="hovered_image"><img src="images/img2_small.jpg" title="2" alt=""></div></li>
+										<li><div class="hovered_image"><img src="images/img3_small.jpg" title="3" alt=""></div></li>
 										<li><img src="images/img4_small.jpg" title="4" alt=""></li>
 										<li><img src="images/img5_small.jpg" title="5" alt=""></li>
 										<li><img src="images/img6_small.jpg" title="6" alt=""></li>
@@ -189,7 +194,7 @@
 
 					<a href="#" class="banner_link"><img class="banner" src="images/ad.png" alt="" /></a>
 					<div class="sidebar_read">
-						<div class="decore_links"><a href="#" class="read">Читают</a></div>
+						<div class="decore_links"><a href="#" class="read" >Читают</a></div>
 						<div class="decore_links"><a href="#" class="comments">Комментируют</a></div>
 
 					</div>
@@ -242,9 +247,9 @@
 								точки зрения безопасности?
 							</p>
 							<div class="label_section">
-								<div class="label_wrap"> <label class="label"><input type="radio" class="input" value="1" /><span data-tooltip="Выберите">BMW</span></label> </div>
-								<div class="label_wrap"><label class="label"><input type="radio" class="input" value="2" /><span data-tooltip="Выберите">Mercedes-Benz</span></label></div>
-								<div class="label_wrap"><label class="label"><input type="radio" class="input" value="3" checked="checked" /><span data-tooltip="Выберите">Volvo</span></label></div>
+								<div class="label_wrap"> <label class="label"><input type="radio" class="input" name="option" value="1" /><span data-tooltip="Выберите">BMW</span></label> </div>
+								<div class="label_wrap"><label class="label"><input type="radio" class="input" name="option" value="2" /><span data-tooltip="Выберите">Mercedes-Benz</span></label></div>
+								<div class="label_wrap"><label class="label"><input type="radio" class="input" name="option" value="3" checked="checked" /><span data-tooltip="Выберите">Volvo</span></label></div>
 							</div>
 							<div class="submit_answer">
 								<button>Ответить</button>
@@ -304,7 +309,27 @@
         
 
         <div class="footer" >
-            
+	        <div class="footer_wrapper">
+				<div class="aligner">
+					<span class="footer_copyright">&copy; 2012 «Ua Web Challenge»</span>
+					<div class="footer_links">
+						<ul class="social_links">
+							<li> <a href="#" class="fb_link"></a></li>
+							<li> <a href="#" class="tw_link"></a></li>
+							<li> <a href="#" class="lin_link"></a></li>
+							<li> <a href="#" class="gplus_link"></a></li>
+							<li> <a href="#" class="ytb_link"></a></li>
+							<li> <a href="#" class="rss_link"></a> </li>
+						</ul>
+					</div>
+
+					<div class="made_by">
+						<img src="images/xeoart_icon.png" />
+						<span class="design_by">Дизайн от <a href="#" class="xeoart_link">xeoart</a></span>
+						<span class="date_time">2012</span>
+					</div>
+				</div>
+	        </div>
         </div>
         
         

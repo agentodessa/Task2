@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Task2.dll">
-      <publishTime>08/08/2014 12:51:10</publishTime>
+      <publishTime>08/11/2014 14:44:03</publishTime>
     </File>
     <File Include="i/ad.jpg">
       <publishTime>01/08/2014 11:30:38</publishTime>
@@ -21,98 +21,125 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="i/uwc.png">
       <publishTime>07/30/2014 19:59:33</publishTime>
     </File>
+    <File Include="ie.css">
+      <publishTime>01/08/2014 18:15:07</publishTime>
+    </File>
     <File Include="images/ad.png">
-      <publishTime>05/08/2014 16:10:44</publishTime>
+      <publishTime>08/05/2014 16:10:44</publishTime>
     </File>
     <File Include="images/bg_news.png">
       <publishTime>07/31/2014 18:50:10</publishTime>
     </File>
     <File Include="images/bg_text.png">
-      <publishTime>05/08/2014 15:55:43</publishTime>
+      <publishTime>08/05/2014 15:55:43</publishTime>
     </File>
     <File Include="images/bmw_logo.png">
-      <publishTime>05/08/2014 18:21:48</publishTime>
+      <publishTime>08/05/2014 18:21:48</publishTime>
     </File>
     <File Include="images/counter.png">
-      <publishTime>05/08/2014 14:03:23</publishTime>
+      <publishTime>08/05/2014 14:03:23</publishTime>
+    </File>
+    <File Include="images/fb_icon.png">
+      <publishTime>08/11/2014 13:12:42</publishTime>
+    </File>
+    <File Include="images/gplus_icon.png">
+      <publishTime>08/11/2014 13:12:42</publishTime>
     </File>
     <File Include="images/img10_lg.jpg">
-      <publishTime>06/08/2014 13:31:52</publishTime>
+      <publishTime>08/06/2014 13:31:52</publishTime>
     </File>
     <File Include="images/img10_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img1_lg.jpg">
-      <publishTime>06/08/2014 17:15:28</publishTime>
+      <publishTime>08/06/2014 17:15:28</publishTime>
     </File>
     <File Include="images/img1_lg.png">
       <publishTime>06/08/2014 12:00:38</publishTime>
     </File>
     <File Include="images/img1_small.jpg">
-      <publishTime>06/08/2014 17:15:28</publishTime>
+      <publishTime>08/06/2014 17:15:28</publishTime>
     </File>
     <File Include="images/img1_small.png">
       <publishTime>06/08/2014 12:00:38</publishTime>
     </File>
     <File Include="images/img2_lg.jpg">
-      <publishTime>06/08/2014 12:22:28</publishTime>
+      <publishTime>08/06/2014 12:22:28</publishTime>
     </File>
     <File Include="images/img2_small.jpg">
-      <publishTime>06/08/2014 12:20:06</publishTime>
+      <publishTime>08/06/2014 12:20:06</publishTime>
     </File>
     <File Include="images/img3_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img3_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img4_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img4_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img5_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img5_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img6_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img6_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img7_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img7_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img8_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img8_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
     </File>
     <File Include="images/img9_lg.jpg">
-      <publishTime>06/08/2014 13:31:51</publishTime>
+      <publishTime>08/06/2014 13:31:51</publishTime>
     </File>
     <File Include="images/img9_small.jpg">
-      <publishTime>06/08/2014 13:37:56</publishTime>
+      <publishTime>08/06/2014 13:37:56</publishTime>
+    </File>
+    <File Include="images/lin_icon.png">
+      <publishTime>08/11/2014 13:12:42</publishTime>
+    </File>
+    <File Include="images/rss_icon.png">
+      <publishTime>08/11/2014 13:12:42</publishTime>
+    </File>
+    <File Include="images/shadow.png">
+      <publishTime>08/12/2014 14:43:52</publishTime>
     </File>
     <File Include="images/thumbs_next.png">
-      <publishTime>07/08/2014 17:53:34</publishTime>
+      <publishTime>08/07/2014 17:53:34</publishTime>
     </File>
     <File Include="images/thumbs_prev.png">
-      <publishTime>07/08/2014 18:01:17</publishTime>
+      <publishTime>08/07/2014 18:01:17</publishTime>
+    </File>
+    <File Include="images/tw_icon.png">
+      <publishTime>08/11/2014 13:12:43</publishTime>
     </File>
     <File Include="images/uwc.png">
-      <publishTime>05/08/2014 15:41:08</publishTime>
+      <publishTime>08/05/2014 15:41:08</publishTime>
     </File>
     <File Include="images/uwc_bg.png">
-      <publishTime>05/08/2014 15:55:43</publishTime>
+      <publishTime>08/05/2014 15:55:43</publishTime>
+    </File>
+    <File Include="images/xeoart_icon.png">
+      <publishTime>08/11/2014 13:20:43</publishTime>
+    </File>
+    <File Include="images/ytb_icon.png">
+      <publishTime>08/11/2014 13:12:43</publishTime>
     </File>
     <File Include="img/ad.png">
       <publishTime>05/08/2014 16:10:44</publishTime>
@@ -136,7 +163,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/08/2014 15:55:43</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>08/08/2014 12:44:27</publishTime>
+      <publishTime>08/01/2014 18:58:27</publishTime>
     </File>
     <File Include="normalize.css">
       <publishTime>07/30/2014 16:30:01</publishTime>
@@ -153,17 +180,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Sample/jquery.tmpl.min.js">
       <publishTime>08/07/2014 15:00:28</publishTime>
     </File>
+    <File Include="Scripts/box-shadow.jquery.js">
+      <publishTime>01/08/2014 18:32:01</publishTime>
+    </File>
     <File Include="Scripts/gallery.js">
-      <publishTime>08/08/2014 13:12:53</publishTime>
+      <publishTime>08/01/2014 18:58:28</publishTime>
     </File>
     <File Include="Scripts/jquery-1.11.1.js">
-      <publishTime>06/08/2014 11:38:31</publishTime>
+      <publishTime>08/06/2014 11:38:31</publishTime>
     </File>
     <File Include="styles.css">
-      <publishTime>08/08/2014 12:50:31</publishTime>
+      <publishTime>08/01/2014 18:58:27</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>04/08/2014 14:58:16</publishTime>
+      <publishTime>08/04/2014 14:58:16</publishTime>
     </File>
   </ItemGroup>
 </Project>

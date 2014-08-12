@@ -3,7 +3,9 @@
 	cursor: default;
 }
 
-
+.content {
+	padding-bottom: 100px;
+}
 .logo {
 	height: 283px;
 	color: white;
@@ -22,7 +24,7 @@
 	bottom: 50px;
 	width: 495px;
 	height: 103px;
-	right: 72px;
+	right: 68px;
 	background-image: url(images/bg_text.png);
 	background-repeat: no-repeat;
 	color: white;
@@ -37,6 +39,7 @@
 }
 .big_logo {
 	position: absolute;
+	left: 28px;
 }
 .bmw_logo {
 	display: block;
@@ -83,15 +86,17 @@
 		display: table-cell;
 		vertical-align: middle;
 	}
+.split_links {
 
+}
 .link_section {
 	width: 684px; /*recalculate*/
 }
 
 .link_section a {
 		font-size: 19px;
-		width: 100px;
 		height: 57px;
+		margin-left: 42px;
 		display: inline-table;
 		text-decoration: none;
 		text-align: center;
@@ -104,16 +109,25 @@
 		}
 
 
-.link_section a:active {
-			color: #000000;
-			border-bottom: 3px solid #7fd0ff;
-		}
+.clicked_link {
+		color: #000000;
+		border-bottom: 3px solid #7fd0ff;
+}
 
 .link_section span {
 		display: table-cell;
 		vertical-align: middle;
-	}
+}
 
+.link_section_list {
+		margin: 0;
+		padding: 0;
+}
+.link_section_list li{
+	display: inline-block;
+	list-style: none;
+
+}
 .wrap_links {
 	width: 998px;
 	height: 60px;
@@ -136,6 +150,7 @@
     --------------------------*/
 .news {
 	margin-top: 120px;
+	float: left;
 }
 
 .news_wrapper {
@@ -295,7 +310,7 @@ td {
 	padding-bottom: 20px;
 	 overflow: hidden;
 }
- .gallery img {
+ .gallery img  {
 	position: absolute;
 	left: 0;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -307,18 +322,24 @@ td {
 	filter: alpha(opacity=0);
 	height: 463px;
 	width: 638px;
+	border: 3px solid transparent;
  }
-
-img.opaque{
+ .picture_counter {
+	 line-height:normal ;
+	 color: #888888;
+ }
+img.opaque {
 	-moz-opacity: 1;
 	opacity:1;
 	filter: alpha(opacity=100);
-	height: 463px;
-	width: 638px;
+}
 
+img.active {
+	border: 3px solid #ffffff;
 }
 .news_copyright {
 	font-size: 11px;
+	margin-top: 15px;
 }
 .thumbs {
 	position: relative;
@@ -328,17 +349,29 @@ img.opaque{
 .thumbs img {
 	width: 120px;
 	height: 86px;
-	padding: 1px;
 	cursor: pointer;
 }
 
 
+.thumbs img:hover {
+	-moz-box-shadow:   0 0 30px 8px rgb(33, 159, 247);
+	box-shadow:    0 0 30px 8px #219ff7;
+	border-color:  #219ff7;
+}
+
+
+.thumbs * {
+	-webkit-user-select: none; 
+	-moz-user-select: none;     
+	-ms-user-select: none;   /* IE 10+ */
+
+}
 
 .thumbs_nav {
 	position: absolute;
 	top: 32px;
 	left: 32px;
-	background-color: #000000;
+	background-color: #141413;
 	border-radius: 5px;
 	height: 134px;
 	width: 636px;
@@ -358,7 +391,7 @@ img.opaque{
 	display: inline-block;
 	margin-left: 20px;
 }
-.carousel a:hover {
+.carousel img:hover {
 	border-color: #219ff7;
 }
 
@@ -367,10 +400,17 @@ img.opaque{
 	width: 34px;
 	height: 110px;
 	left: 0;
-	top: -15%;
-	border-right: 1px solid #fffafa;
+	top: -12px;
+	border: 1px solid #3f4042;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 	background-color: #000000;
-	opacity: 0.6;
+	background: linear-gradient(to right, #000000, #474848);
+	opacity: 0.9;
 }
 
 
@@ -379,18 +419,26 @@ img.opaque{
 	width: 34px;
 	height: 110px;
 	right: 0;
-	top: -15%;
-		border-left: 1px solid #fffafa;
+	top: -12px;
+	border: 1px solid #3f4042;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 	background-color: #000000;
-	opacity: 0.6;
+	background: linear-gradient(to left, #000000, #474848);
+	opacity: 0.9;
+	text-align: center;
 }
 .left_arrow {
 	display: block;
 	width: 23px;
 	height: 22px;
 	background-image: url(images/thumbs_prev.png);
-	margin-top: 55px;
-	margin-bottom: 11px; 
+	margin-top: 2.9em;
+	margin-left: 9px;
 }
 
 .right_arrow {
@@ -398,8 +446,8 @@ img.opaque{
 	width: 23px;
 	height: 22px;
 	background-image: url(images/thumbs_next.png);
-	margin-top: 55px;
-	margin-bottom: 11px; 
+	margin-top: 2.9em;
+	margin-right: 9px;
 }
 
 
@@ -410,10 +458,9 @@ img.opaque{
     ---------------------*/
 
 .sidebar {
+	margin-top: 120px;
 	width: 240px;
-	position: absolute;
-	right: 0;
-	top: 0;
+	float: right;
 }
 
 .banner {
@@ -448,7 +495,6 @@ img.opaque{
 
 
 .read:link {
-	position: absolute;
 	left: 10px;
 	-webkit-transform: skew(20deg);
 	-moz-transform: skew(20deg);
@@ -480,7 +526,7 @@ img.opaque{
 	color: #000000;
 }
 
-	.read:visited .decore_links {
+.read:visited .decore_links {
 		color: #ffffff;
 	}
 
@@ -488,7 +534,7 @@ img.opaque{
 	color: #000000;
 }
 
-	.comments:visited .decore_links {
+.comments:visited .decore_links {
 		color: #ffffff;
 	}
 
@@ -720,6 +766,7 @@ input[type=radio]:hover + label:before {
 
 
 .new_cars {
+
 }
 
 .photo_view {
@@ -806,6 +853,88 @@ input[type=radio]:hover + label:before {
 
 /*Footer section*/
 .footer {
+	position: relative;
 	height: 200px;
-	border: 1px solid #000000;
+	clear: both;
+}
+
+.footer_wrapper div {
+	display: inline-table;
+}
+
+.footer_wrapper {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+
+}
+
+
+.aligner {
+	position: relative;
+	height: 26px;
+	margin-left: 32px;
+	margin-top: 100px;
+	margin-bottom: -13px;
+}
+
+.footer_copyright {
+	font-size: 11px;
+}
+
+.footer_links {
+	margin-left: 74px;
+}
+.footer_links a {
+	display: block;
+	width: 15px;
+	height: 15px;
+}
+
+.social_links {
+	padding: 0;
+	margin: 0;
+}
+.social_links li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.fb_link {
+	background-image: url(images/fb_icon.png);
+}
+.tw_link {
+	background-image: url(images/tw_icon.png);
+}
+
+.lin_link {
+	background-image: url(images/lin_icon.png);
+}
+
+.gplus_link {
+	background-image: url(images/gplus_icon.png);
+}
+
+.ytb_link {
+	background-image: url(images/ytb_icon.png);
+}
+
+.rss_link {
+	background-image: url(images/rss_icon.png);
+}
+
+.made_by {
+	margin-left: 96px;
+}
+
+.design_by {
+	right: 0;
+	top: 0;
+	font-size: 11px;
+	margin-left: 5px;
+	color: #000000;
+}
+.xeoart_link {
+	text-decoration: none;
+	border-bottom: 1px solid #aaacae;
 }
