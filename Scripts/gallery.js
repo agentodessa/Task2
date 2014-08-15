@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
-	$(".link_section a").click(function () {
-		$(".link_section a").removeClass("clicked_link");
-		$(this).addClass("clicked_link");
-	});
+	//$(".link_section a").click(function () {
+	//	$(".link_section a").removeClass("clicked_link");
+	//	$(this).addClass("clicked_link");
+	//});
 
 
 	$(".carousel img").click(function () {
@@ -22,7 +22,7 @@
 	});
 	//Main gallery
 	var isAnimated;
-	var dxGallery = 160;
+	var dxGallery = 146;
 	$(".thumb_prev").click(function () {
 		var currentPos = parseInt($(".carousel").css('margin-left').replace(/[^-\d\.]/g, ''));
 		var offset;
@@ -63,17 +63,16 @@
 		if (!isAnimated) {
 			isAnimated = true;
 			{
-				counter++;
-				$(".carousel_sidebar").animate({ marginLeft: offset, }, 400, function () {
+				//$(".carousel_sidebar img").eq(counter).animate({ opacity: 0 },400);
+				//$(".carousel_sidebar li").eq(counter).animate({ marginRight: offset });
+				$(".carousel_sidebar").animate({ marginLeft: offset }, 400, function () {
 					isAnimated = false;
 				});
+				//$(".carousel_sidebar img").eq(counter).animate({ width: 0 });
+				counter++;
 			}
 		}
 	});
-
-
-
-
 
 	$(".button_left").click(function() {
 		var currentPos = parseInt($(".carousel_sidebar").css('margin-left').replace(/[^-\d\.]/g, ''));
@@ -84,6 +83,8 @@
 			isAnimated = true;
 			$(".carousel_sidebar").animate({ marginLeft: offset }, 400, function () {
 				isAnimated = false;
+				counter--;
+				$(".carousel_sidebar img").eq(counter - 1).animate({ opacity: 1 });
 				//$(".carousel_sidebar img").animate({width:0});
 			});
 		}

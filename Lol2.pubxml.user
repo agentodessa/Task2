@@ -10,7 +10,151 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Task2.dll">
-      <publishTime>08/14/2014 11:38:17</publishTime>
+      <publishTime>08/15/2014 16:51:21</publishTime>
+    </File>
+    <File Include="fonts/Apache License Version 2.txt">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-bold-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-bold-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-bold-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Bold.eot">
+      <publishTime>08/15/2014 15:14:44</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Bold.otf">
+      <publishTime>08/15/2014 15:03:00</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Bold.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-bolditalic-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-bolditalic-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-bolditalic-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-BoldItalic.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabold-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabold-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabold-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-ExtraBold.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabolditalic-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabolditalic-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-extrabolditalic-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-ExtraBoldItalic.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-italic-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-italic-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-italic-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Italic.otf">
+      <publishTime>08/15/2014 15:11:13</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Italic.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-light-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-light-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-light-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Light.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-lightitalic-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-lightitalic-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-lightitalic-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-LightItalic.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-regular-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-regular-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-regular-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Regular.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibold-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibold-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibold-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-Semibold.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibolditalic-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibolditalic-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans-semibolditalic-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans-SemiboldItalic.ttf">
+      <publishTime>08/15/2014 12:57:20</publishTime>
+    </File>
+    <File Include="fonts/opensans_bold-webfont.eot">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans_bold-webfont.ttf">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/opensans_bold-webfont.woff">
+      <publishTime>08/15/2014 16:15:22</publishTime>
+    </File>
+    <File Include="fonts/OpenSans_Regular.otf">
+      <publishTime>08/15/2014 13:16:26</publishTime>
     </File>
     <File Include="i/ad.jpg">
       <publishTime>01/08/2014 11:30:38</publishTime>
@@ -169,7 +313,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/08/2014 15:55:43</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>08/14/2014 18:14:41</publishTime>
+      <publishTime>08/15/2014 20:26:53</publishTime>
     </File>
     <File Include="normalize.css">
       <publishTime>07/30/2014 16:30:01</publishTime>
@@ -190,13 +334,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/01/2014 18:32:01</publishTime>
     </File>
     <File Include="Scripts/gallery.js">
-      <publishTime>08/14/2014 18:46:10</publishTime>
+      <publishTime>08/15/2014 15:31:48</publishTime>
     </File>
     <File Include="Scripts/jquery-1.11.1.js">
       <publishTime>06/08/2014 11:38:31</publishTime>
     </File>
     <File Include="styles.css">
-      <publishTime>08/14/2014 17:39:05</publishTime>
+      <publishTime>08/15/2014 20:30:21</publishTime>
     </File>
     <File Include="web.config">
       <publishTime>04/08/2014 14:58:16</publishTime>
