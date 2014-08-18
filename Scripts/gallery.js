@@ -1,8 +1,4 @@
 ﻿$(document).ready(function () {
-	//$(".link_section a").click(function () {
-	//	$(".link_section a").removeClass("clicked_link");
-	//	$(this).addClass("clicked_link");
-	//});
 
 
 	$(".carousel img").click(function () {
@@ -34,7 +30,6 @@
 			});
 		}
 	});
-
 
 	$(".thumb_next").click(function () {
 
